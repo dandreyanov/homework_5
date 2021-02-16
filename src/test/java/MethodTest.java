@@ -9,7 +9,7 @@ public class MethodTest {
         Configuration.headless = true;
         steps.openMainPage();
         steps.goToIssue();
-        steps.checkIssue();
+        steps.checkIssue("Issue #1");
     }
 
 }

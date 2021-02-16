@@ -18,8 +18,8 @@ public class BaseSteps {
     }
 
     @Step("Проверяем наличие нужного Issue")
-    public void checkIssue() {
-        $(withText("Issue #1")).shouldBe(visible);
+    public void checkIssue(String checkText) {
+        $(withText(checkText)).shouldBe(visible);
     }
 
 }

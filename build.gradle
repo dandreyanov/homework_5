@@ -26,8 +26,8 @@ allure {
 }
 
 dependencies {
-    compile("io.qameta.allure:allure-java-commons:2.13.8")
-    compile("io.qameta.allure:allure-selenide:2.13.8")
+    testImplementation "io.qameta.allure:allure-java-commons:2.13.8"
+    testImplementation "io.qameta.allure:allure-selenide:2.13.8"
     testImplementation "com.codeborne:selenide:5.17.3"
     testImplementation "org.junit.jupiter:junit-jupiter-api:5.7.0"
     testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:5.7.0"

@@ -19,7 +19,7 @@ public class LambdaTest {
         SelenideLogger.addListener("allure", new AllureSelenide());
         Configuration.headless = true;
         step("Открываем страницу с проектом", () -> {
-            open("https://github.com/dandreyanov/homework_5");
+            open("https://github.com/dandreyanov/sample-lambda-and-steps");
         });
 
         step("Переходим в Issues", () -> {

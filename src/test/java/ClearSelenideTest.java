@@ -13,7 +13,7 @@ public class ClearSelenideTest {
     void CheckGitHubIssue() {
         Configuration.headless = true;
         //Открываем страницу с проектом
-        open("https://github.com/dandreyanov/homework_5");
+        open("https://github.com/dandreyanov/sample-lambda-and-steps");
 
         //Переходим в Issues
         $(withText("Issues")).click();

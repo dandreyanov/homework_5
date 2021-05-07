@@ -9,7 +9,7 @@ public class BaseSteps {
 
     @Step("Открываем страницу с проектом")
     public void openMainPage() {
-        open("https://github.com/dandreyanov/homework_5");
+        open("https://github.com/dandreyanov/sample-lambda-and-steps");
     }
 
     @Step("Переходим в Issues")
